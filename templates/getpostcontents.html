@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1 style="text-align: right">  <a href="/">  Recovery Spots </a></h1>
+
+
+
+
+  <ol>
+  {% for tool in allofit %}
+      <li style="font-size: medium">{{tool}}</li>
+  {% endfor %}
+  </ol>
+
+{% endblock content %}

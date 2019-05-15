@@ -1,0 +1,2 @@
+This project has two web apps. Ordinarily, these two web apps might be better as two views in one web app. However,
+I did this in order to learn a bit about how one constructs a Django project with two web apps.
